@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron{
+    background: rgb(99,199,196);
+    background: linear-gradient(132deg, rgba(99,199,196,1) 25%, rgba(112,27,112,1) 67%);
+}
+
+.jumbotron h1{
+    color: #fff;
+}
+
+.myju h6{
+    color: #fff;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Newsreader', serif;
+}
+
+.newsgrid{
+    margin: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+img{
+    width: calc(100% - 20px);
+    height: 250px;
+    margin: 10px;
+}
+
+.container-fluid{
+    width: 90%;
+}
+
+.myfoot{
+    background: rgb(99,199,196);
+    background: linear-gradient(132deg, rgba(99,199,196,1) 25%, rgba(112,27,112,1) 67%);
+}
+.myfoot span{
+    font-family: 'Ballet', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
